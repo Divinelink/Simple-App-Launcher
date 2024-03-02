@@ -29,6 +29,17 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:theme="@style/AppTheme">
 
+        <service
+            android:name=".tiles.ApplicationTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_app_launcher_tile"
+            android:label="@string/tile_name"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name=".activities.SplashActivity"
             android:exported="false"
