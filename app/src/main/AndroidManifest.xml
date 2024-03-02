@@ -23,10 +23,10 @@
         android:name=".App"
         android:allowBackup="true"
         android:appCategory="productivity"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_blue_grey"
         android:label="@string/app_launcher_name"
         android:localeConfig="@xml/locale_config"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_blue_grey"
         android:theme="@style/AppTheme">
 
         <service
